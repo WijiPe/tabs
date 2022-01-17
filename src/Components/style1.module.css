@@ -1,0 +1,9 @@
+.header1{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: fantasy;
+    margin: 10px;
+
+}

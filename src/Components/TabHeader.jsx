@@ -1,19 +1,12 @@
 import React, {useState} from 'react'
-import TabContent from './TabContent'
-
+import styles from './TabHeader.module.css';
 
 const TabHeader = (props) => {
     
-
-
-
-
     return (
-        <div>
-            <button onClick = { () =>  props.changeText(props.index) }> {props.name} </button>
+        <div className={styles.button}>
+            <button className ="w3-bar-item w3-button tablink" onClick = { () =>  props.changeText(props.key) }> {props.name} </button>
         </div>
-
-
 
     )
 }

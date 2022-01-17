@@ -1,25 +1,15 @@
-import React, {useState} from 'react'
-// import MessageDisplay from './MessageDisplay'
-// import MessageForm from './MessageForm'
+import React from 'react'
 
 
 const TabContent = (props) => {
     
-
-
-
     return (
-        <div>
-            {props.content}
+        <div className="w3-container city w3-animate-opacity">
+            <p>{props.content}</p>
         </div>
-
-
 
     )
 }
-
-    
-
 
 
 export default TabContent
